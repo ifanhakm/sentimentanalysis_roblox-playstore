@@ -64,10 +64,10 @@ To replicate this project, you need to run the two main components in order.
 
 2.  **Part A: Scrape the Data**
     * Install the required library: `pip install google-play-scraper pandas`
-    * Run the `Ifan_Hakim_Scrapping_from_Playstore_Roblox.ipynb` notebook.
-    * This will generate the `roblox_reviews.csv` file.
+    * Run the `Scrapping_from_Playstore_Roblox.ipynb` notebook.
+    * This will generate the `roblox_playstore.csv` file.
 
 3.  **Part B: Train the Model**
     * Ensure you have TensorFlow and other data science libraries installed: `pip install tensorflow scikit-learn matplotlib seaborn`
-    * Run the `Ifan_Hakim_Proyek_Analisis_Sentimen_Belajar_Fundamental_Deep_Learning.ipynb` notebook.
+    * Run the `SentimentAnalysis_Roblox-Playstore.ipynb` notebook.
     * This notebook will load the CSV file, preprocess the data, and train the sentiment analysis model.
